@@ -98,26 +98,23 @@
 </head>
 <body>
 
-<!-- Navbar -->
 <nav>
-    <div class="logo">📚 Pahana Edu</div>
+    <div class="logo">📚 PahanaEdu</div>
     <ul>
         <li><a href="customer_dashboard.jsp">Home</a></li>
         <li><a href="buy_books.jsp">Buy Books</a></li>
-        <li><a href="cart.jsp">My Cart</a></li>
+        <li><a href="addcart.jsp">My Cart</a></li>
         <li><a href="payment.jsp">Payment</a></li>
-        <li><a href="LogoutServlet">Logout</a></li>
+        <li><a href="Login.jsp">Logout</a></li>
     </ul>
 </nav>
 
-<!-- Welcome -->
 <h2 style="text-align:center; margin-top: 20px;">Welcome, <%= username %>! Explore Our Books</h2>
 
-<!-- Books Section -->
 <div class="book-container">
-    <!-- Example books (replace with DB data later) -->
+ 
     <div class="book-card">
-        <img src="images/book1.jpg" alt="Book 1">
+        <img src="image/img1.png.jpg" alt="Book 1">
         <h3>The Great Adventure</h3>
         <p>Rs. 1200</p>
         <form method="post" action="AddToCartServlet">
@@ -129,7 +126,7 @@
     </div>
 
     <div class="book-card">
-        <img src="images/book2.jpg" alt="Book 2">
+        <img src="image/img2.png.webp" alt="Book 2">
         <h3>Learn Java in 21 Days</h3>
         <p>Rs. 1500</p>
         <form method="post" action="AddToCartServlet">
@@ -141,7 +138,7 @@
     </div>
 
     <div class="book-card">
-        <img src="images/book3.jpg" alt="Book 3">
+        <img src="image/img3.png.PNG" alt="Book 3">
         <h3>Science for Everyone</h3>
         <p>Rs. 900</p>
         <form method="post" action="AddToCartServlet">
