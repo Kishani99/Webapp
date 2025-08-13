@@ -76,7 +76,7 @@
 <div class="dashboard">
     <div class="card">
         <h3>📚 Add New Books</h3>
-        <a href="add_book.jsp">Go</a>
+        <a href="cashier_addbook.jsp">Go</a>
     </div>
 
     <div class="card">
